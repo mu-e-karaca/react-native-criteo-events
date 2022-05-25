@@ -25,6 +25,9 @@ export default class App extends React.Component {
           contentInsetAdjustmentBehavior="automatic">
           <View style={styles.container}>
           <Text>CriteoEvents</Text>
+          <Button title="[TEST]BasketView"/>
+          <Button title="[TEST]ProductView"/>
+          <Button title="[TEST]ProductList"/>
           </View>
         </ScrollView>
       </SafeAreaView>
